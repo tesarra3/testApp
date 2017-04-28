@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/general_padding"
+    android:background="@color/items_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.9">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:padding="4dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rotation="-90"
+        tools:srcCompat="@drawable/ic_call_received"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            tools:text="TextView"
+            android:textColor="@color/text_primary"/>
+
+        <TextView
+            android:id="@+id/direct"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            tools:text="TextView"
+            android:textColor="@color/text_primary"/>
+
+        <RelativeLayout
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/general_background"/>
+
+        <RelativeLayout
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text1"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/detail_fragment_account_number"
+                android:textColor="@color/text_primary"/>
+
+            <TextView
+                android:id="@+id/account_number"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end|right"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/text1"
+                tools:text="111"
+                android:textColor="@color/text_primary"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text2"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/detail_fragment_account_name"
+                android:textColor="@color/text_primary"/>
+
+            <TextView
+                android:id="@+id/account_name"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end|right"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/text2"
+                tools:text="BU"
+                android:textColor="@color/text_primary"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text3"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/detail_fragment_bank_code"
+                android:textColor="@color/text_primary"/>
+
+            <TextView
+                android:id="@+id/bank_code"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end|right"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/text3"
+                tools:text="3030"
+                android:textColor="@color/text_primary"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

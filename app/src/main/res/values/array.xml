@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transaction_direct_value" translatable="false">
+        <item>ALL</item>
+        <item>INCOMING</item>
+        <item>OUTGOING</item>
+    </string-array>
+
+    <string-array name="transaction_direct" translatable="false">
+        <item>@string/all</item>
+        <item>@string/incoming</item>
+        <item>@string/outgoing</item>
+    </string-array>
+
+
+</resources>

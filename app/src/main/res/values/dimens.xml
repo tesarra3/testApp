@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_reczcleview_space">2dp</dimen>
+    <dimen name="general_margin">8dp</dimen>
+    <dimen name="general_padding">16dp</dimen>
+    <dimen name="spinner_min_height">30dp</dimen>
+</resources>
